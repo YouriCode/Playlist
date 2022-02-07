@@ -23,11 +23,73 @@ body {
 .songs {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.line {
+    width: 44vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vh;
+    align-items: center;
+    margin: 1.8vh 0;
 }
 
 .music-btn{
-    height: 5vh;
-    width: 5vh;
+    height: 6vh;
+    width: 6vh;
     background-image: url(/img/song.svg);
     background-size: cover;
+}
+
+.song-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: auto;
+}
+
+.song-title{
+    font-weight: normal;
+    font-size: 2vh;
+    margin: 0;
+}
+
+.song-dur{
+    font-weight: normal;
+    font-size: 1.5vh;
+    color: #AA9379;
+    margin-top: -.3vh;
+    margin-bottom: 0;
+}
+
+.menu {
+    height: 3vh;
+    width: 3vh;
+    background-image: url(/img/more-vertical.svg);
+    background-size: cover;
+}
+
+.add {
+    height: 3vh;
+    width: 3vh;
+    background-image: url(/img/add.svg);
+    background-size: cover;
+}
+
+.stbig {
+    font-size: 2.8vh;
+}
+
+.song3 .music-btn {
+    order: 3;
+}
+
+.song4 {
+    flex-direction: row-reverse;
+}
+
+.song4 .menu {
+    order: 2;
 }
