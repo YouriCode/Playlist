@@ -41,7 +41,7 @@ body {
     width: 6vh;
     background-image: url(/img/song.svg);
     background-size: cover;
-}
+}  
 
 .song-info{
     display: flex;
