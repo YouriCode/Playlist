@@ -3,7 +3,7 @@
 body {
     background: #F4EBE1;
     font-family: Archivo, sans-serif;
-}
+    color: #604E3A;}
 
 .container{
     height: 97vh;
@@ -16,4 +16,18 @@ body {
     height: 70vh;
     width: 45vh;
     background: #FFF;
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+.songs {
+    display: flex;
+    flex-direction: column;
+}
+
+.music-btn{
+    height: 5vh;
+    width: 5vh;
+    background-image: url(/img/song.svg);
+    background-size: cover;
 }
